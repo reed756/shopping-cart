@@ -1,11 +1,11 @@
-const CartDisplay = () => {
+const CartDisplay = (props) => {
     return (
         <div>
             <p>
-                Number of Items in Cart: 
+                Number of Items in Cart: {props.cartnumber}
             </p>
             <button>
-                Head to checkout
+                CHECKOUT
             </button>
         </div>
     )
