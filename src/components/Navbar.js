@@ -1,10 +1,22 @@
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>shop</li>
+                    <li>
+                        <a 
+                            href={props.homeUrl}
+                        >
+                            {props.home}
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href={props.shopUrl}
+                        >
+                            {props.shop}
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
