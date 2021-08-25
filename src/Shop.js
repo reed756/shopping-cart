@@ -40,6 +40,7 @@ const Shop = () => {
     return (
       <div>
         <Navbar 
+          class = "nav-bar"
           home = "HOME"
           shop = "SHOP"
           homeUrl = "http://localhost:3000/"

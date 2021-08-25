@@ -1,8 +1,8 @@
 const Navbar = (props) => {
     return (
         <div>
-            <nav>
-                <ul>
+            <nav className={props.class}>
+                <ul className={props.class}>
                     <li>
                         <a 
                             href={props.homeUrl}
