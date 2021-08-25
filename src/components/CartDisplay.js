@@ -1,6 +1,6 @@
 const CartDisplay = (props) => {
     return (
-        <div>
+        <div className={props.class}>
             <p>
                 Number of Items in Cart: {props.cartnumber}
             </p>

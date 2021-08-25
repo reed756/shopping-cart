@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import CartDisplay from "./components/CartDisplay";
 import React, {useState, useEffect} from "react";
 import Card from "./components/Card";
+import './styles/Shop.css';
+import Footer from './components/Footer';
 
 const Shop = () => {
     useEffect(() => {
@@ -48,9 +50,12 @@ const Shop = () => {
         />
         <CartDisplay 
           cartnumber={cartnumber}
+          class="display-wrapper"
         />
-        <h1>Welcome to the shop!</h1>
-        <div>
+        <div className="heading-wrapper">
+          <h1>Welcome to the shop!</h1>
+        </div>
+        <div className="shop-grid">
           {items.map(item => (
             <Card 
               key={item.itemId}
@@ -64,6 +69,10 @@ const Shop = () => {
             />
           ))}
         </div>
+        <Footer 
+          class="foot-wrapper"
+          footer="© James Reed 2021"
+        />
       </div>
     );
 };
