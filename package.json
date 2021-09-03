@@ -14,8 +14,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://reed756.github.io"
+  "homepage": "https://myusername.github.io"
 }
