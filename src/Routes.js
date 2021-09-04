@@ -4,7 +4,7 @@ import Shop from "./Shop";
 
 const Routes = () => {
   return (
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter basename="https://reed756.github.io/shopping-cart">
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/shop" component={Shop} />
