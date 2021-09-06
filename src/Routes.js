@@ -4,7 +4,7 @@ import Shop from "./Shop";
 
 const Routes = () => {
   return (
-    <Router basename={"/" || ""}>
+    <Router>
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/shop" component={Shop} />
