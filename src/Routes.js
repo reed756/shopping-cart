@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import App from "./App";
 import Shop from "./Shop";
 
 const Routes = () => {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router basename="/">
       <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/shop" component={Shop} />
