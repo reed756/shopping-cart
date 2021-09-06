@@ -1,21 +1,19 @@
+import { Link, useLocation } from 'react-router-dom';
+
 const Navbar = (props) => {
     return (
         <div>
             <nav className={props.class}>
                 <ul className={props.class}>
                     <li>
-                        <a 
-                            href={props.homeUrl}
-                        >
+                        <Link to="/">
                             {props.home}
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a 
-                            href={props.shopUrl}
-                        >
+                        <Link to="/shop">
                             {props.shop}
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

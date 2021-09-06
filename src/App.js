@@ -9,8 +9,8 @@ const App = () => {
         class = "nav-bar"
         home = "HOME"
         shop = "SHOP"
-        homeUrl = "https://reed756.github.io/shopping-cart"
-        shopUrl = "https://reed756.github.io/shopping-cart/shop"
+        // homeUrl = "https://reed756.github.io/shopping-cart"
+        // shopUrl = "https://reed756.github.io/shopping-cart/shop"
       />
       <div className="head-wrapper">
         <h1>Welcome to the Website for all things Fortnite</h1>
