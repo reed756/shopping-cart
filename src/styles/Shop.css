@@ -10,5 +10,11 @@
 .shop-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 10px 50px;
+    margin: 50px 100px;
+}
+.shop-adder {
+    margin: 15px 0;
+}
+.shop-text {
+    font-size: 140%;
 }

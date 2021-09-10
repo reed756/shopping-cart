@@ -1,28 +1,35 @@
 const Card = (props) => {
     return (
-        <div>
+        <div className="card-wrapper">
             <img 
                 alt="" 
                 src={props.image}
+                className="card-image"
             ></img>
-            <h3>
+            <h2>
                 {props.name}
-            </h3>
-            <input 
-                value={props.number}
-                onChange={props.onChange}
-                type="number"
-            >
-            </input>
-            <button
-                onClick={props.onIncrement}
-            >+</button>
-            <button
-                onClick={props.onDecrement}
-            >-</button>
-            <button
-                onClick={props.addToCart}
-            >ADD TO CART</button>
+            </h2>
+            <div className="shop-adder">
+                <input 
+                    value={props.number}
+                    onChange={props.onChange}
+                    type="number"
+                    className="shop-text"
+                >
+                </input>
+                <button
+                    onClick={props.onIncrement}
+                    className="shop-text"
+                >+</button>
+                <button
+                    onClick={props.onDecrement}
+                    className="shop-text"
+                >-</button>
+                <button
+                    onClick={props.addToCart}
+                    className="shop-text"
+                >ADD TO CART</button>
+            </div>
         </div>
     )
 }

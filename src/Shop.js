@@ -45,8 +45,6 @@ const Shop = () => {
           class = "nav-bar"
           home = "HOME"
           shop = "SHOP"
-          // homeUrl = "https://reed756.github.io/shopping-cart"
-          // shopUrl = "https://reed756.github.io/shopping-cart/shop"
         />
         <CartDisplay 
           cartnumber={cartnumber}
